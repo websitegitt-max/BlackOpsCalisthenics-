@@ -1,0 +1,78 @@
+IMAGE SOURCES / LICENSE NOTES
+==============================
+
+These demo images were researched from Wikimedia Commons. The website references the Wikimedia Special:FilePath endpoint so the images load automatically.
+
+1. Gym interior
+File: This gym room showcases various workout machines.jpg
+Author: Shixart1985
+License: CC BY 2.0
+Source: https://commons.wikimedia.org/wiki/File:This_gym_room_showcases_various_workout_machines.jpg
+Used for: hero, about/gym images.
+
+2. Cardio/treadmill
+File: Treadmills at gym.jpg
+Author: U.S. Air Force Photo/Staff Sgt Araceli Alarcon
+License: Public domain in the United States as described on Wikimedia Commons
+Source: https://commons.wikimedia.org/wiki/File:Treadmills_at_gym.jpg
+Used for: cardio/gym gallery images.
+
+3. Woman cardio
+File: A woman is focused on starting her cardio workout on a treadmill at a gym.jpg
+Author: Shixart1985
+License: CC BY 2.0
+Source: https://commons.wikimedia.org/wiki/File:A_woman_is_focused_on_starting_her_cardio_workout_on_a_treadmill_at_a_gym.jpg
+Used for: weight-loss/cardio program and gallery.
+
+4. Coach + athlete
+File: A coach observes an athlete performing a weightlifting exercise.jpg
+Author: Shixart1985
+License: CC BY 2.0
+Source: https://commons.wikimedia.org/wiki/File:A_coach_observes_an_athlete_performing_a_weightlifting_exercise.jpg
+Used for: trainer/personal-training imagery.
+
+5. Strong woman
+File: Strong woman lifting weights in a gym focused on fitness and strength training.jpg
+Author: Shixart1985
+License: CC BY 2.0
+Source: https://commons.wikimedia.org/wiki/File:Strong_woman_lifting_weights_in_a_gym_focused_on_fitness_and_strength_training.jpg
+Used for: strength/muscle/CTA imagery.
+
+6. Woman with dumbbells
+File: Woman lifting dumbbells in a modern gym during a workout session focused on strength training and fitness.jpg
+Author: Shixart1985
+License: CC BY 2.0
+Source: https://commons.wikimedia.org/wiki/File:Woman_lifting_dumbbells_in_a_modern_gym_during_a_workout_session_focused_on_strength_training_and_fitness.jpg
+Used for: training/gallery imagery.
+
+7. Group fitness
+File: Participants in a fitness class engage in an energetic session, while one individual observes from the side. Equipment is set up for various workouts, enhancing the atmosphere.jpg
+Author: Shixart1985
+License: CC BY 2.0
+Source: https://commons.wikimedia.org/wiki/File:Participants_in_a_fitness_class_engage_in_an_energetic_session,_while_one_individual_observes_from_the_side._Equipment_is_set_up_for_various_workouts,_enhancing_the_atmosphere.jpg
+Used for: group/functional training and gallery.
+
+8. Deadlift
+File: Fit young man doing deadlift exercise in gym.jpg
+Source: Wikimedia Commons search result/file page.
+Used for: muscle-building program.
+Verify the exact license on the Wikimedia file page before publishing commercially.
+
+9. Free weights
+File: Free weights in a gym.jpg
+Author: KeepActive Australia
+License: Permission stated on Wikimedia Commons requires attribution/link to KeepActive.com.au for online use.
+Source: https://commons.wikimedia.org/wiki/File:Free_weights_in_a_gym.jpg
+Used for: facilities/gym imagery.
+
+10. Dumbbells/free weights
+File: Dumbells and free weights in a gym.jpg
+Author: KeepActive Australia
+License: Permission stated on Wikimedia Commons requires attribution/link to KeepActive.com.au for online use.
+Source: https://commons.wikimedia.org/wiki/File:Dumbells_and_free_weights_in_a_gym.jpg
+Used for: gallery/equipment imagery.
+
+IMPORTANT:
+- Licenses can have attribution requirements.
+- Check the source page again before a paid client launch.
+- Replace the demo images with the gym's own photos whenever possible.

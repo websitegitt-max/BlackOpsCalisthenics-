@@ -1,0 +1,629 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- ===================== EASY CUSTOMIZATION =====================
+       Most gym details are controlled from CONFIG in script.js.
+       Replace your images inside /images/ using the filenames referenced there.
+  =================================================================== -->
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Iron Peak Fitness in Bengaluru — strength training, personal training, functional fitness and modern gym facilities.">
+  <meta name="keywords" content="gym Bengaluru, fitness center, personal training, strength training, weight loss">
+  <meta name="author" content="Iron Peak Fitness">
+
+  <meta property="og:title" content="Iron Peak Fitness | Premium Gym in Bengaluru">
+  <meta property="og:description" content="Train hard. Stay strong. Live better.">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="https://commons.wikimedia.org/wiki/Special:FilePath/This%20gym%20room%20showcases%20various%20workout%20machines.jpg?width=1400">
+
+  <title>Iron Peak Fitness | Premium Gym in Bengaluru</title>
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@500;600;700;800&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+  <!-- Font Awesome free icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+
+  <link rel="stylesheet" href="style.css">
+</head>
+
+
+  <!-- Images in this demo are loaded from Wikimedia Commons under their listed licenses.
+       See IMAGE-SOURCES.txt for source pages, authors and license information.
+       For a production client site, download/host appropriately licensed images locally. -->
+
+<body>
+  <!-- ===================== HEADER ===================== -->
+  <header class="site-header" id="site-header">
+    <nav class="navbar container" aria-label="Main navigation">
+      <a href="#home" class="brand" aria-label="Iron Peak Fitness home">
+        <span class="brand-mark"><i class="fa-solid fa-dumbbell"></i></span>
+        <span class="brand-name" data-gym-name>IRON PEAK</span>
+      </a>
+
+      <button class="menu-toggle" id="menu-toggle" aria-label="Open menu" aria-expanded="false">
+        <i class="fa-solid fa-bars"></i>
+      </button>
+
+      <div class="nav-links" id="nav-links">
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#programs">Programs</a>
+        <a href="#trainers">Trainers</a>
+        <a href="#facilities">Facilities</a>
+        <a href="#membership">Membership</a>
+        <a href="#gallery">Gallery</a>
+        <a href="#contact">Contact</a>
+        <a href="#membership" class="nav-cta">Join Now <i class="fa-solid fa-arrow-right"></i></a>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <!-- ===================== HERO ===================== -->
+    <section class="hero" id="home">
+      <div class="hero-bg"></div>
+      <div class="hero-overlay"></div>
+
+      <div class="container hero-content reveal">
+        <p class="eyebrow"><span></span> WELCOME TO <strong data-gym-name>IRON PEAK FITNESS</strong></p>
+        <h1>TRAIN HARD.<br><span>STAY STRONG.</span><br>LIVE BETTER.</h1>
+        <p class="hero-copy">A premium fitness space designed to help you become stronger, healthier and more confident.</p>
+
+        <div class="hero-actions">
+          <a href="#membership" class="btn btn-primary">Join Now <i class="fa-solid fa-arrow-right"></i></a>
+          <a href="#programs" class="btn btn-outline">Explore Programs</a>
+        </div>
+
+        <div class="hero-meta">
+          <span><i class="fa-solid fa-location-dot"></i> <span data-location-short>Bengaluru, Karnataka</span></span>
+          <span><i class="fa-solid fa-clock"></i> Open early. Train on your schedule.</span>
+        </div>
+      </div>
+
+      <a href="#stats" class="scroll-cue" aria-label="Scroll down">
+        <span>SCROLL</span>
+        <i class="fa-solid fa-arrow-down"></i>
+      </a>
+    </section>
+
+    <!-- ===================== STATS ===================== -->
+    <section class="stats" id="stats">
+      <div class="container stats-grid">
+        <div class="stat reveal">
+          <strong class="counter" data-target="10">0</strong><span>+</span>
+          <p>Years Experience</p>
+        </div>
+        <div class="stat reveal">
+          <strong class="counter" data-target="2000">0</strong><span>+</span>
+          <p>Happy Members</p>
+        </div>
+        <div class="stat reveal">
+          <strong class="counter" data-target="15">0</strong><span>+</span>
+          <p>Expert Trainers</p>
+        </div>
+        <div class="stat reveal">
+          <strong class="counter" data-target="30">0</strong><span>+</span>
+          <p>Weekly Classes</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== ABOUT ===================== -->
+    <section class="section about" id="about">
+      <div class="container split-grid">
+        <div class="image-frame reveal">
+          <img src="https://commons.wikimedia.org/wiki/Special:FilePath/This%20gym%20room%20showcases%20various%20workout%20machines.jpg?width=1400" alt="Modern gym strength training area" loading="lazy">
+          <div class="image-badge">
+            <strong>10+</strong>
+            <span>YEARS OF<br>TRAINING</span>
+          </div>
+        </div>
+
+        <div class="section-copy reveal">
+          <p class="eyebrow"><span></span> WHO WE ARE</p>
+          <h2>MORE THAN A GYM.<br><em>IT'S A COMMUNITY.</em></h2>
+          <p>Iron Peak Fitness is built for people who want more from their training. From your first session to your next personal best, our team combines expert guidance, quality equipment and a supportive environment.</p>
+
+          <div class="check-list">
+            <span><i class="fa-solid fa-check"></i> Strength & cardio training</span>
+            <span><i class="fa-solid fa-check"></i> Personal training</span>
+            <span><i class="fa-solid fa-check"></i> Group & functional classes</span>
+            <span><i class="fa-solid fa-check"></i> Practical fitness guidance</span>
+          </div>
+
+          <a href="#facilities" class="text-link">Explore our facilities <i class="fa-solid fa-arrow-right"></i></a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== WHY US ===================== -->
+    <section class="section section-dark" id="why-us">
+      <div class="container">
+        <div class="section-heading reveal">
+          <p class="eyebrow"><span></span> THE IRON PEAK DIFFERENCE</p>
+          <h2>WHY TRAIN <em>WITH US?</em></h2>
+        </div>
+
+        <div class="feature-grid">
+          <article class="feature-card reveal">
+            <div class="feature-icon"><i class="fa-solid fa-user-shield"></i></div>
+            <h3>Expert Trainers</h3>
+            <p>Certified coaches who help you train safely and consistently toward your goals.</p>
+          </article>
+          <article class="feature-card reveal">
+            <div class="feature-icon"><i class="fa-solid fa-dumbbell"></i></div>
+            <h3>Modern Equipment</h3>
+            <p>Dedicated strength, cardio and functional zones for complete training.</p>
+          </article>
+          <article class="feature-card reveal">
+            <div class="feature-icon"><i class="fa-solid fa-bullseye"></i></div>
+            <h3>Personalized Training</h3>
+            <p>Workouts can be adapted to your current level, goals and training experience.</p>
+          </article>
+          <article class="feature-card reveal">
+            <div class="feature-icon"><i class="fa-solid fa-sparkles"></i></div>
+            <h3>Clean Environment</h3>
+            <p>A comfortable, organized and hygienic space you will enjoy returning to.</p>
+          </article>
+          <article class="feature-card reveal">
+            <div class="feature-icon"><i class="fa-solid fa-calendar-days"></i></div>
+            <h3>Flexible Timings</h3>
+            <p>Early and late sessions make it easier to fit training into busy schedules.</p>
+          </article>
+          <article class="feature-card reveal">
+            <div class="feature-icon"><i class="fa-solid fa-people-group"></i></div>
+            <h3>Supportive Community</h3>
+            <p>Train around people who keep the atmosphere energetic, focused and welcoming.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== PROGRAMS ===================== -->
+    <section class="section" id="programs">
+      <div class="container">
+        <div class="section-heading heading-row reveal">
+          <div>
+            <p class="eyebrow"><span></span> TRAINING OPTIONS</p>
+            <h2>TRAIN <em>YOUR WAY.</em></h2>
+          </div>
+          <p class="heading-side-copy">Choose a training path that fits your goal, experience and lifestyle.</p>
+        </div>
+
+        <div class="program-grid">
+          <article class="program-card reveal">
+            <img src="https://commons.wikimedia.org/wiki/Special:FilePath/Strong%20woman%20lifting%20weights%20in%20a%20gym%20focused%20on%20fitness%20and%20strength%20training.jpg?width=1200" alt="Strength training with free weights" loading="lazy">
+            <div class="program-overlay">
+              <span>01</span>
+              <h3>Strength Training</h3>
+              <p>Build strength with structured resistance training.</p>
+              <a href="#contact">Explore Program <i class="fa-solid fa-arrow-right"></i></a>
+            </div>
+          </article>
+
+          <article class="program-card reveal">
+            <img src="https://commons.wikimedia.org/wiki/Special:FilePath/A%20woman%20is%20focused%20on%20starting%20her%20cardio%20workout%20on%20a%20treadmill%20at%20a%20gym.jpg?width=1400" alt="Cardio training for weight loss" loading="lazy">
+            <div class="program-overlay">
+              <span>02</span>
+              <h3>Weight Loss</h3>
+              <p>Combine movement, conditioning and consistency.</p>
+              <a href="#contact">Explore Program <i class="fa-solid fa-arrow-right"></i></a>
+            </div>
+          </article>
+
+          <article class="program-card reveal">
+            <img src="https://commons.wikimedia.org/wiki/Special:FilePath/Fit%20young%20man%20doing%20deadlift%20exercise%20in%20gym.jpg?width=1200" alt="Muscle building workout" loading="lazy">
+            <div class="program-overlay">
+              <span>03</span>
+              <h3>Muscle Building</h3>
+              <p>Train progressively toward a stronger physique.</p>
+              <a href="#contact">Explore Program <i class="fa-solid fa-arrow-right"></i></a>
+            </div>
+          </article>
+
+          <article class="program-card reveal">
+            <img src="https://commons.wikimedia.org/wiki/Special:FilePath/A%20coach%20observes%20an%20athlete%20performing%20a%20weightlifting%20exercise.jpg?width=1400" alt="Personal training session" loading="lazy">
+            <div class="program-overlay">
+              <span>04</span>
+              <h3>Personal Training</h3>
+              <p>One-to-one coaching built around your needs.</p>
+              <a href="#contact">Explore Program <i class="fa-solid fa-arrow-right"></i></a>
+            </div>
+          </article>
+
+          <article class="program-card reveal">
+            <img src="https://commons.wikimedia.org/wiki/Special:FilePath/Participants%20in%20a%20fitness%20class%20engage%20in%20an%20energetic%20session%2C%20while%20one%20individual%20observes%20from%20the%20side.%20Equipment%20is%20set%20up%20for%20various%20workouts%2C%20enhancing%20the%20atmosphere.jpg?width=1400" alt="Functional fitness training" loading="lazy">
+            <div class="program-overlay">
+              <span>05</span>
+              <h3>Functional Training</h3>
+              <p>Improve movement, control, conditioning and power.</p>
+              <a href="#contact">Explore Program <i class="fa-solid fa-arrow-right"></i></a>
+            </div>
+          </article>
+
+          <article class="program-card reveal">
+            <img src="https://commons.wikimedia.org/wiki/Special:FilePath/Treadmills%20at%20gym.jpg?width=1200" alt="Cardio workout in a gym" loading="lazy">
+            <div class="program-overlay">
+              <span>06</span>
+              <h3>Cardio Training</h3>
+              <p>Improve endurance with varied cardio sessions.</p>
+              <a href="#contact">Explore Program <i class="fa-solid fa-arrow-right"></i></a>
+            </div>
+          </article>
+
+          <article class="program-card reveal">
+            <img src="https://commons.wikimedia.org/wiki/Special:FilePath/Participants%20in%20a%20fitness%20class%20engage%20in%20an%20energetic%20session%2C%20while%20one%20individual%20observes%20from%20the%20side.%20Equipment%20is%20set%20up%20for%20various%20workouts%2C%20enhancing%20the%20atmosphere.jpg?width=1400" alt="Group fitness class" loading="lazy">
+            <div class="program-overlay">
+              <span>07</span>
+              <h3>Group Fitness</h3>
+              <p>Stay motivated with energetic coached sessions.</p>
+              <a href="#contact">Explore Program <i class="fa-solid fa-arrow-right"></i></a>
+            </div>
+          </article>
+
+          <article class="program-card reveal">
+            <img src="https://commons.wikimedia.org/wiki/Special:FilePath/Woman%20lifting%20dumbbells%20in%20a%20modern%20gym%20during%20a%20workout%20session%20focused%20on%20strength%20training%20and%20fitness.jpg?width=1200" alt="Fitness transformation training" loading="lazy">
+            <div class="program-overlay">
+              <span>08</span>
+              <h3>Transformation</h3>
+              <p>Create a sustainable routine around your goals.</p>
+              <a href="#contact">Explore Program <i class="fa-solid fa-arrow-right"></i></a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== TRAINERS ===================== -->
+    <section class="section section-light" id="trainers">
+      <div class="container">
+        <div class="section-heading reveal">
+          <p class="eyebrow"><span></span> THE COACHING TEAM</p>
+          <h2>MEET OUR <em>TRAINERS.</em></h2>
+        </div>
+
+        <div class="trainer-grid">
+          <article class="trainer-card reveal">
+            <div class="trainer-photo"><img src="https://commons.wikimedia.org/wiki/Special:FilePath/A%20coach%20observes%20an%20athlete%20performing%20a%20weightlifting%20exercise.jpg?width=1400" alt="Coach 01, strength and conditioning coach" loading="lazy"></div>
+            <div class="trainer-info">
+              <p>STRENGTH & CONDITIONING</p>
+              <h3>Coach 01</h3>
+              <span>8+ Years Experience</span>
+              <div class="social-mini">
+                <a href="#" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+                <a href="#" aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
+              </div>
+            </div>
+          </article>
+
+          <article class="trainer-card reveal">
+            <div class="trainer-photo"><img src="https://commons.wikimedia.org/wiki/Special:FilePath/Strong%20woman%20lifting%20weights%20in%20a%20gym%20focused%20on%20fitness%20and%20strength%20training.jpg?width=1200" alt="Coach 02, weight loss specialist" loading="lazy"></div>
+            <div class="trainer-info">
+              <p>WEIGHT LOSS SPECIALIST</p>
+              <h3>Coach 02</h3>
+              <span>6+ Years Experience</span>
+              <div class="social-mini">
+                <a href="#" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+                <a href="#" aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
+              </div>
+            </div>
+          </article>
+
+          <article class="trainer-card reveal">
+            <div class="trainer-photo"><img src="https://commons.wikimedia.org/wiki/Special:FilePath/Woman%20lifting%20dumbbells%20in%20a%20modern%20gym%20during%20a%20workout%20session%20focused%20on%20strength%20training%20and%20fitness.jpg?width=1200" alt="Coach 03, functional training coach" loading="lazy"></div>
+            <div class="trainer-info">
+              <p>FUNCTIONAL TRAINING</p>
+              <h3>Coach 03</h3>
+              <span>5+ Years Experience</span>
+              <div class="social-mini">
+                <a href="#" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+                <a href="#" aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
+              </div>
+            </div>
+          </article>
+
+          <article class="trainer-card reveal">
+            <div class="trainer-photo"><img src="https://commons.wikimedia.org/wiki/Special:FilePath/Participants%20in%20a%20fitness%20class%20engage%20in%20an%20energetic%20session%2C%20while%20one%20individual%20observes%20from%20the%20side.%20Equipment%20is%20set%20up%20for%20various%20workouts%2C%20enhancing%20the%20atmosphere.jpg?width=1400" alt="Coach 04, performance coach" loading="lazy"></div>
+            <div class="trainer-info">
+              <p>PERFORMANCE COACH</p>
+              <h3>Coach 04</h3>
+              <span>7+ Years Experience</span>
+              <div class="social-mini">
+                <a href="#" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+                <a href="#" aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== FACILITIES ===================== -->
+    <section class="section facilities" id="facilities">
+      <div class="container">
+        <div class="section-heading reveal">
+          <p class="eyebrow"><span></span> OUR SPACE</p>
+          <h2>BUILT FOR YOUR <em>FITNESS JOURNEY.</em></h2>
+        </div>
+
+        <div class="facility-grid">
+          <div class="facility-feature reveal">
+            <img src="https://commons.wikimedia.org/wiki/Special:FilePath/Free%20weights%20in%20a%20gym.jpg?width=1200" alt="Strength training zone" loading="lazy">
+            <div><span>01</span><h3>Strength Training Zone</h3></div>
+          </div>
+          <div class="facility-card reveal"><i class="fa-solid fa-heart-pulse"></i><h3>Cardio Zone</h3><p>Treadmills, cycles and conditioning equipment.</p></div>
+          <div class="facility-card reveal"><i class="fa-solid fa-weight-hanging"></i><h3>Free Weights</h3><p>Dumbbells, barbells and training essentials.</p></div>
+          <div class="facility-card reveal"><i class="fa-solid fa-person-running"></i><h3>Functional Area</h3><p>Open space for movement and conditioning work.</p></div>
+          <div class="facility-card reveal"><i class="fa-solid fa-user"></i><h3>Personal Training</h3><p>Dedicated space for focused coaching.</p></div>
+          <div class="facility-card reveal"><i class="fa-solid fa-shower"></i><h3>Locker & Changing</h3><p>Convenient spaces for members before and after training.</p></div>
+          <div class="facility-card reveal"><i class="fa-solid fa-bottle-water"></i><h3>Drinking Water</h3><p>Stay hydrated throughout your workout.</p></div>
+          <div class="facility-card reveal"><i class="fa-solid fa-square-parking"></i><h3>Parking</h3><p>Convenient parking access for members.</p></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== GALLERY ===================== -->
+    <section class="section section-dark" id="gallery">
+      <div class="container">
+        <div class="section-heading heading-row reveal">
+          <div>
+            <p class="eyebrow"><span></span> INSIDE IRON PEAK</p>
+            <h2>THE <em>GALLERY.</em></h2>
+          </div>
+          <div class="gallery-filters" role="group" aria-label="Gallery filters">
+            <button class="filter-btn active" data-filter="all">All</button>
+            <button class="filter-btn" data-filter="gym">Gym</button>
+            <button class="filter-btn" data-filter="training">Training</button>
+            <button class="filter-btn" data-filter="equipment">Equipment</button>
+            <button class="filter-btn" data-filter="members">Members</button>
+          </div>
+        </div>
+
+        <div class="gallery-grid" id="gallery-grid">
+          <button class="gallery-item gallery-wide reveal" data-category="gym" data-full="https://commons.wikimedia.org/wiki/Special:FilePath/This%20gym%20room%20showcases%20various%20workout%20machines.jpg?width=1400">
+            <img src="https://commons.wikimedia.org/wiki/Special:FilePath/This%20gym%20room%20showcases%20various%20workout%20machines.jpg?width=1400" alt="Gym interior" loading="lazy"><span><i class="fa-solid fa-expand"></i></span>
+          </button>
+          <button class="gallery-item reveal" data-category="equipment" data-full="https://commons.wikimedia.org/wiki/Special:FilePath/Free%20weights%20in%20a%20gym.jpg?width=1200">
+            <img src="https://commons.wikimedia.org/wiki/Special:FilePath/Free%20weights%20in%20a%20gym.jpg?width=1200" alt="Gym equipment" loading="lazy"><span><i class="fa-solid fa-expand"></i></span>
+          </button>
+          <button class="gallery-item reveal" data-category="training" data-full="https://commons.wikimedia.org/wiki/Special:FilePath/Treadmills%20at%20gym.jpg?width=1200">
+            <img src="https://commons.wikimedia.org/wiki/Special:FilePath/Treadmills%20at%20gym.jpg?width=1200" alt="Training area" loading="lazy"><span><i class="fa-solid fa-expand"></i></span>
+          </button>
+          <button class="gallery-item reveal" data-category="members" data-full="https://commons.wikimedia.org/wiki/Special:FilePath/A%20coach%20observes%20an%20athlete%20performing%20a%20weightlifting%20exercise.jpg?width=1400">
+            <img src="https://commons.wikimedia.org/wiki/Special:FilePath/A%20coach%20observes%20an%20athlete%20performing%20a%20weightlifting%20exercise.jpg?width=1400" alt="Members training" loading="lazy"><span><i class="fa-solid fa-expand"></i></span>
+          </button>
+          <button class="gallery-item gallery-tall reveal" data-category="equipment" data-full="https://commons.wikimedia.org/wiki/Special:FilePath/Dumbells%20and%20free%20weights%20in%20a%20gym.jpg?width=1200">
+            <img src="https://commons.wikimedia.org/wiki/Special:FilePath/Dumbells%20and%20free%20weights%20in%20a%20gym.jpg?width=1200" alt="Free weights area" loading="lazy"><span><i class="fa-solid fa-expand"></i></span>
+          </button>
+          <button class="gallery-item reveal" data-category="training" data-full="https://commons.wikimedia.org/wiki/Special:FilePath/Woman%20lifting%20dumbbells%20in%20a%20modern%20gym%20during%20a%20workout%20session%20focused%20on%20strength%20training%20and%20fitness.jpg?width=1200">
+            <img src="https://commons.wikimedia.org/wiki/Special:FilePath/Woman%20lifting%20dumbbells%20in%20a%20modern%20gym%20during%20a%20workout%20session%20focused%20on%20strength%20training%20and%20fitness.jpg?width=1200" alt="Personal training session" loading="lazy"><span><i class="fa-solid fa-expand"></i></span>
+          </button>
+          <button class="gallery-item reveal" data-category="gym" data-full="https://commons.wikimedia.org/wiki/Special:FilePath/A%20woman%20is%20focused%20on%20starting%20her%20cardio%20workout%20on%20a%20treadmill%20at%20a%20gym.jpg?width=1400">
+            <img src="https://commons.wikimedia.org/wiki/Special:FilePath/A%20woman%20is%20focused%20on%20starting%20her%20cardio%20workout%20on%20a%20treadmill%20at%20a%20gym.jpg?width=1400" alt="Modern gym floor" loading="lazy"><span><i class="fa-solid fa-expand"></i></span>
+          </button>
+          <button class="gallery-item gallery-wide reveal" data-category="members" data-full="https://commons.wikimedia.org/wiki/Special:FilePath/Participants%20in%20a%20fitness%20class%20engage%20in%20an%20energetic%20session%2C%20while%20one%20individual%20observes%20from%20the%20side.%20Equipment%20is%20set%20up%20for%20various%20workouts%2C%20enhancing%20the%20atmosphere.jpg?width=1400">
+            <img src="https://commons.wikimedia.org/wiki/Special:FilePath/Participants%20in%20a%20fitness%20class%20engage%20in%20an%20energetic%20session%2C%20while%20one%20individual%20observes%20from%20the%20side.%20Equipment%20is%20set%20up%20for%20various%20workouts%2C%20enhancing%20the%20atmosphere.jpg?width=1400" alt="Members working out" loading="lazy"><span><i class="fa-solid fa-expand"></i></span>
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== MEMBERSHIP ===================== -->
+    <section class="section membership" id="membership">
+      <div class="container">
+        <div class="section-heading center reveal">
+          <p class="eyebrow"><span></span> MEMBERSHIP</p>
+          <h2>CHOOSE YOUR <em>MEMBERSHIP.</em></h2>
+          <p>Simple plans. Clear benefits. A membership that matches your training needs.</p>
+        </div>
+
+        <div class="pricing-grid">
+          <article class="price-card reveal">
+            <p class="plan-label">BASIC</p>
+            <h3>₹1,499<span>/month</span></h3>
+            <p class="plan-copy">A straightforward gym membership for independent training.</p>
+            <ul>
+              <li>Gym Access</li><li>Cardio Area</li><li>Strength Area</li><li>Locker Access</li>
+            </ul>
+            <a href="#contact" class="btn btn-dark">Get Started</a>
+          </article>
+
+          <article class="price-card popular reveal">
+            <div class="popular-badge">MOST POPULAR</div>
+            <p class="plan-label">PRO</p>
+            <h3>₹2,499<span>/month</span></h3>
+            <p class="plan-copy">More guidance and more ways to stay consistent.</p>
+            <ul>
+              <li>Everything in Basic</li><li>Group Classes</li><li>Fitness Assessment</li><li>Diet Guidance</li>
+            </ul>
+            <a href="#contact" class="btn btn-primary">Get Started</a>
+          </article>
+
+          <article class="price-card reveal">
+            <p class="plan-label">ELITE</p>
+            <h3>₹4,999<span>/month</span></h3>
+            <p class="plan-copy">Personalized coaching for a more focused experience.</p>
+            <ul>
+              <li>Everything in Pro</li><li>Personal Training</li><li>Customized Workout Plan</li><li>Personalized Nutrition Guidance</li>
+            </ul>
+            <a href="#contact" class="btn btn-dark">Get Started</a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== TESTIMONIALS ===================== -->
+    <section class="section testimonials section-light" id="testimonials">
+      <div class="container testimonial-layout">
+        <div class="testimonial-intro reveal">
+          <p class="eyebrow"><span></span> MEMBER STORIES</p>
+          <h2>REAL PEOPLE.<br><em>REAL PROGRESS.</em></h2>
+          <p>Consistency looks different for everyone. Here's what members say about their experience.</p>
+          <div class="slider-controls">
+            <button id="testimonial-prev" aria-label="Previous testimonial"><i class="fa-solid fa-arrow-left"></i></button>
+            <button id="testimonial-next" aria-label="Next testimonial"><i class="fa-solid fa-arrow-right"></i></button>
+          </div>
+        </div>
+
+        <div class="testimonial-stage reveal">
+          <div class="testimonial-slide active">
+            <div class="quote-mark">“</div>
+            <blockquote>The trainers helped me stay consistent and finally make fitness part of my lifestyle.</blockquote>
+            <div class="member-meta"><strong>Ananya R.</strong><span>Strength & Lifestyle</span></div>
+          </div>
+          <div class="testimonial-slide">
+            <div class="quote-mark">“</div>
+            <blockquote>I wanted a place where I could learn proper technique. The coaching and atmosphere made a big difference.</blockquote>
+            <div class="member-meta"><strong>Rohit K.</strong><span>Strength Training</span></div>
+          </div>
+          <div class="testimonial-slide">
+            <div class="quote-mark">“</div>
+            <blockquote>The group sessions keep me accountable without making workouts feel repetitive.</blockquote>
+            <div class="member-meta"><strong>Meera S.</strong><span>Functional Fitness</span></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== CTA ===================== -->
+    <section class="cta-banner">
+      <div class="cta-bg"></div>
+      <div class="cta-overlay"></div>
+      <div class="container cta-content reveal">
+        <p class="eyebrow"><span></span> YOUR NEXT SESSION STARTS HERE</p>
+        <h2>READY TO START<br>YOUR <em>TRANSFORMATION?</em></h2>
+        <p>Your stronger version starts with your next workout.</p>
+        <a href="#contact" class="btn btn-primary">Join The Gym <i class="fa-solid fa-arrow-right"></i></a>
+      </div>
+    </section>
+
+    <!-- ===================== CONTACT ===================== -->
+    <section class="section contact" id="contact">
+      <div class="container contact-grid">
+        <div class="contact-info reveal">
+          <p class="eyebrow"><span></span> CONTACT</p>
+          <h2>LET'S GET <em>STARTED.</em></h2>
+          <p>Have a question about memberships, programs or a trial visit? Send us a message and the team can get back to you.</p>
+
+          <div class="contact-list">
+            <a id="phone-link" href="#"><i class="fa-solid fa-phone"></i><span><small>Phone</small><strong data-phone>+91 98765 43210</strong></span></a>
+            <a id="email-link" href="#"><i class="fa-solid fa-envelope"></i><span><small>Email</small><strong data-email>info@ironpeakfitness.com</strong></span></a>
+            <div><i class="fa-solid fa-location-dot"></i><span><small>Address</small><strong data-address>123 Fitness Street, Bengaluru, Karnataka</strong></span></div>
+            <div><i class="fa-solid fa-clock"></i><span><small>Opening Hours</small><strong data-hours>Mon–Sat: 5:30 AM–10 PM<br>Sun: 6 AM–2 PM</strong></span></div>
+          </div>
+        </div>
+
+        <form class="contact-form reveal" id="contact-form" novalidate>
+          <div class="form-row">
+            <label>Name<input type="text" id="name" name="name" placeholder="Your name" required></label>
+            <label>Phone<input type="tel" id="form-phone" name="phone" placeholder="+91..." required></label>
+          </div>
+          <label>Email<input type="email" id="form-email" name="email" placeholder="you@example.com" required></label>
+          <label>Select Program
+            <select id="program" name="program" required>
+              <option value="">Choose a program</option>
+              <option>Strength Training</option>
+              <option>Weight Loss</option>
+              <option>Muscle Building</option>
+              <option>Personal Training</option>
+              <option>Functional Training</option>
+              <option>Cardio Training</option>
+              <option>Group Fitness</option>
+              <option>Transformation Program</option>
+            </select>
+          </label>
+          <label>Message<textarea id="message" name="message" rows="5" placeholder="Tell us what you are looking for..." required></textarea></label>
+          <button type="submit" class="btn btn-primary">Send Enquiry <i class="fa-solid fa-arrow-right"></i></button>
+          <p class="form-note">Demo form: no email is sent because this template has no backend.</p>
+          <div class="form-success" id="form-success" role="status">
+            <i class="fa-solid fa-circle-check"></i> Thank you! We'll contact you shortly.
+          </div>
+        </form>
+      </div>
+    </section>
+
+    <!-- ===================== MAP ===================== -->
+    <section class="map-section" id="map">
+      <div class="map-placeholder">
+        <!-- Replace the iframe src in script.js CONFIG.mapEmbed with your real Google Maps embed URL. -->
+        <iframe id="map-frame" title="Iron Peak Fitness location" loading="lazy" allowfullscreen referrerpolicy="no-referrer-when-downgrade"></iframe>
+        <div class="map-label">
+          <span><i class="fa-solid fa-location-dot"></i></span>
+          <div><strong data-gym-name>IRON PEAK FITNESS</strong><small data-address>123 Fitness Street, Bengaluru, Karnataka</small></div>
+          <a id="directions-link" class="btn btn-primary btn-small" target="_blank" rel="noopener">Get Directions</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+
+    <!-- ===================== IMAGE CREDITS ===================== -->
+    <section class="image-credits" aria-label="Image credits">
+      <div class="container">
+        <strong>Demo image credits:</strong>
+        Wikimedia Commons images by Shixart1985 and other listed contributors; see IMAGE-SOURCES.txt for the exact source pages and licenses.
+      </div>
+    </section>
+
+  <!-- ===================== FOOTER ===================== -->
+  <footer class="footer">
+    <div class="container footer-grid">
+      <div class="footer-brand">
+        <a href="#home" class="brand">
+          <span class="brand-mark"><i class="fa-solid fa-dumbbell"></i></span>
+          <span class="brand-name" data-gym-name>IRON PEAK</span>
+        </a>
+        <p>Premium training, practical guidance and a community built around getting stronger.</p>
+        <div class="footer-socials">
+          <a id="instagram-link" href="#" target="_blank" rel="noopener" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+          <a id="facebook-link" href="#" target="_blank" rel="noopener" aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
+          <a id="youtube-link" href="#" target="_blank" rel="noopener" aria-label="YouTube"><i class="fa-brands fa-youtube"></i></a>
+          <a id="whatsapp-footer" href="#" target="_blank" rel="noopener" aria-label="WhatsApp"><i class="fa-brands fa-whatsapp"></i></a>
+        </div>
+      </div>
+
+      <div>
+        <h4>Quick Links</h4>
+        <a href="#home">Home</a><a href="#about">About</a><a href="#programs">Programs</a><a href="#trainers">Trainers</a><a href="#membership">Membership</a><a href="#gallery">Gallery</a><a href="#contact">Contact</a>
+      </div>
+
+      <div>
+        <h4>Programs</h4>
+        <a href="#programs">Strength Training</a><a href="#programs">Weight Loss</a><a href="#programs">Muscle Building</a><a href="#programs">Personal Training</a><a href="#programs">Functional Training</a>
+      </div>
+
+      <div>
+        <h4>Contact</h4>
+        <a id="footer-phone" href="#"><span data-phone>+91 98765 43210</span></a>
+        <a id="footer-email" href="#"><span data-email>info@ironpeakfitness.com</span></a>
+        <p data-address>123 Fitness Street, Bengaluru, Karnataka</p>
+      </div>
+    </div>
+
+    <div class="container footer-bottom">
+      <p>© <span id="copyright-year">2026</span> <span data-gym-name>Iron Peak Fitness</span>. All Rights Reserved.</p>
+      <a href="#home">Back to top <i class="fa-solid fa-arrow-up"></i></a>
+    </div>
+  </footer>
+
+  <!-- ===================== WHATSAPP ===================== -->
+  <a id="whatsapp-button" class="whatsapp-float" href="#" target="_blank" rel="noopener" aria-label="Chat on WhatsApp">
+    <i class="fa-brands fa-whatsapp"></i>
+    <span>Chat with us</span>
+  </a>
+
+  <!-- ===================== LIGHTBOX ===================== -->
+  <div class="lightbox" id="lightbox" aria-hidden="true">
+    <button class="lightbox-close" id="lightbox-close" aria-label="Close gallery"><i class="fa-solid fa-xmark"></i></button>
+    <button class="lightbox-prev" id="lightbox-prev" aria-label="Previous image"><i class="fa-solid fa-chevron-left"></i></button>
+    <img id="lightbox-image" src="" alt="Expanded gallery image">
+    <button class="lightbox-next" id="lightbox-next" aria-label="Next image"><i class="fa-solid fa-chevron-right"></i></button>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
