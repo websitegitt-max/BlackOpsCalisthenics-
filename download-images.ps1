@@ -23,7 +23,7 @@ $images = @{
   "program-cardio.jpg" = "https://commons.wikimedia.org/wiki/Special:FilePath/Treadmills_at_gym.jpg?width=1200"
   "program-group.jpg" = "https://commons.wikimedia.org/wiki/Special:FilePath/Participants_in_a_fitness_class_engage_in_an_energetic_session%2C_while_one_individual_observes_from_the_side._Equipment_is_set_up_for_various_workouts%2C_enhancing_the_atmosphere.jpg?width=1200"
   "program-transformation.jpg" = "https://commons.wikimedia.org/wiki/Special:FilePath/Woman_lifting_dumbbells_in_a_modern_gym_during_a_workout_session_focused_on_strength_training_and_fitness.jpg?width=1200"
-  "gallery1.jpg" = "https://commons.wikimedia.org/wiki/Special:FilePath/A_coach_observes_an_athlete_performing_a_weightlifting_exercise.jpg?width=1200"
+  "gallery1.jpg" = "WhatsApp Image 2026-10-03 at 9.45.02 PM.jpeg"
   "gallery2.jpg" = "https://commons.wikimedia.org/wiki/Special:FilePath/Dumbells_and_free_weights_in_a_gym.jpg?width=1200"
   "gallery3.jpg" = "https://commons.wikimedia.org/wiki/Special:FilePath/Woman_lifting_dumbbells_in_a_modern_gym_during_a_workout_session_focused_on_strength_training_and_fitness.jpg?width=1200"
   "gallery4.jpg" = "https://commons.wikimedia.org/wiki/Special:FilePath/A_woman_is_focused_on_starting_her_cardio_workout_on_a_treadmill_at_a_gym.jpg?width=1200"
